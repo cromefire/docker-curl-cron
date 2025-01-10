@@ -4,6 +4,6 @@ set -e
 
 echo "$(date) - Start"
 
-exec "curl $OPTIONS"
+eval "curl $OPTIONS"
 
 echo "$(date) End"
